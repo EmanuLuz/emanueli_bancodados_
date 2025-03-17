@@ -1,0 +1,10 @@
+// Compare dois números e imprima o maior
+
+var primeiroNumero = Number(prompt("digite o primeiro numero "));
+
+var segundoNumero = Number(prompt("digite o segundo numero "));
+
+var LargestNumber = Math.max (primeiroNumero, segundoNumero);
+console.log ("o maior número é:  " + LargestNumber);
+
+alert ("o maior número é: " + LargestNumber);
